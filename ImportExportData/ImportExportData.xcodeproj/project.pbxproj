@@ -14,6 +14,7 @@
 		2387ADB82A3A89240031F75D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2387ADB72A3A89240031F75D /* Persistence.swift */; };
 		2387ADBB2A3A89240031F75D /* ImportExportData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2387ADB92A3A89240031F75D /* ImportExportData.xcdatamodeld */; };
 		2387ADC32A3A8A8F0031F75D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2387ADC22A3A8A8F0031F75D /* Home.swift */; };
+		23997B932A3B6334006E701A /* AddNewExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23997B922A3B6334006E701A /* AddNewExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		2387ADB72A3A89240031F75D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2387ADBA2A3A89240031F75D /* ImportExportData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImportExportData.xcdatamodel; sourceTree = "<group>"; };
 		2387ADC22A3A8A8F0031F75D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		23997B922A3B6334006E701A /* AddNewExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				2387ADC22A3A8A8F0031F75D /* Home.swift */,
+				23997B922A3B6334006E701A /* AddNewExpense.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				2387ADBB2A3A89240031F75D /* ImportExportData.xcdatamodeld in Sources */,
 				2387ADB82A3A89240031F75D /* Persistence.swift in Sources */,
 				2387ADC32A3A8A8F0031F75D /* Home.swift in Sources */,
+				23997B932A3B6334006E701A /* AddNewExpense.swift in Sources */,
 				2387ADB12A3A89210031F75D /* ContentView.swift in Sources */,
 				2387ADAF2A3A89210031F75D /* ImportExportDataApp.swift in Sources */,
 			);

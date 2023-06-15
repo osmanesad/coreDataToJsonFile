@@ -9,6 +9,9 @@ import SwiftUI
 import CoreData
 
 struct Home: View {
+    
+    @State private var addExpense: Bool = false
+    
     var body: some View {
         NavigationStack{
             List{
@@ -18,11 +21,18 @@ struct Home: View {
                 .toolbar{
                     ToolbarItem(placement: .navigationBarTrailing){
                         Button{
+                            addExpense.toggle()
                             
                         }label: {
                             Image(systemName: "plus")
                         }
                     }
+                }
+                .sheet(isPresented: $addExpense){
+                    AddNewExpense()
+                        .presentationDetents([.medium])
+                        .presentationDragIndicator(.hidden)
+                        .interactiveDismissDisabled()
                 }
         }
     }
